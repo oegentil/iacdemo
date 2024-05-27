@@ -8,7 +8,7 @@ module "my_vcn01" {
 module "my_vcn02" {
   source          = "./vcn_module"
   cidr_block      = "172.16.0.0/16"
-  dns_label       = "myvcn"
+  dns_label       = "vcn02"
   compartment_id  = var.compartment_ocid
-  display_name    = "My VCN"
+  display_name    = "vcn02"
 }
